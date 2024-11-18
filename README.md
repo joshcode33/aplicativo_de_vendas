@@ -16,7 +16,7 @@ Para desenvolver o aplicativo, foi necessário:
 
   Banco de Ddados foi utilizado para salvar e criar contas de usuários, permitindo a empresa ou o vendedor fazer login 
   e se conectar com outros usuários para compras e vendas de produtos.
-  Não só desenvolvido apenas para criar contas e entrar no aplcativo, mas também para alterar foto de perfil, vender produtoa, gerar histórico de vendas/pagamentos pelo usuário e
+  Também é utilizado para alterar foto de perfil, vender produtoa, gerar histórico de vendas/pagamentos pelo usuário e
   se conectar com outras empresas para comprar produtos. 
   
 - Google API REST
