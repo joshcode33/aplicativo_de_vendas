@@ -101,8 +101,8 @@ class MainApp(App):
         foto_perfil.source = f"icones/fotos_perfil/{foto}"
 
         info = f'{{"avatar": "{foto}"}}'
-        requisicao = requests.get(f"https://appdevendas-9e69b-default-rtdb.firebaseio.com/{self.id_usuario}.json"
-                                  , data=info)
+        requisicao = requests.get(f""
+                                 , data=info)
 
         self.mudar_tela("ajustespage")
 MainApp().run()
