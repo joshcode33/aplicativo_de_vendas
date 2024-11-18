@@ -1,10 +1,11 @@
 Aplicativo de vendas para empresas e comércios, desenvolvido com Pyrhon/Kivy
 
+
+![App_vendas3 2](https://github.com/user-attachments/assets/dbde3d53-f39e-4d65-ab58-c0aeef234da9)
+
 Sua função é vender produtos e alimentos de empresa para empresa. 
 Neste há como adicionar vendedores, listar suas vendas, adicionar seus proddutos e analisar suas vendas!
 
-
-![App_vendas3 2](https://github.com/user-attachments/assets/dbde3d53-f39e-4d65-ab58-c0aeef234da9)
 
 Para desenvolver o aplicativo, foi necessário:
 - Python3
