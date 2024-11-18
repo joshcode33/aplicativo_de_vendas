@@ -3,11 +3,11 @@ from kivy.app import App
 
 
 class MyFireBase():
-    API_KEY = "AIzaSyBmxAWe4quMhFj4OswYKENzZfeXXPP7CFw"
+    API_KEY = ""
     pass
 
     def criar_conta(self, email, senha):
-        link = f"https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={self.API_KEY}"
+        link = f"{self.API_KEY}"
         print(email, senha)
         info = {"email": email,
                 "password": senha,
@@ -31,7 +31,7 @@ class MyFireBase():
             with open("refreshtoken.txt", "w") as arquivo:
                 arquivo.write(refresh_token)
 
-            link = f"https://appdevendas-9e69b-default-rtdb.firebaseio.com/{local_id}.json"
+            link = f"{local_id}.json"
             info_usuario = '{"avatar": "foto1.png", "equipe": "", "total_vendas": "0", "vendas": ""}'
             requisicao_usuario = requests.patch(link, data=info_usuario)
 
